@@ -1,36 +1,41 @@
-Algerian Forest Fires - FWI Prediction
+# Algerian Forest Fires - FWI Prediction
 
-A machine learning project that predicts the Fire Weather Index (FWI) using weather and fire-related features from the Algerian Forest Fires dataset.
+A machine learning project that predicts the **Fire Weather Index (FWI)** using weather and fire-related features from the Algerian Forest Fires dataset.
 
 The project covers the complete workflow from data preprocessing and model training to deploying the trained model as a Flask web application.
 
-Technologies Used
- Python
- NumPy
- Pandas
- Scikit-learn
- Flask
- HTML
- Git & GitHub
- AWS Elastic Beanstalk
- Machine Learning
+## Technologies Used
 
-The project uses Ridge Regression to predict FWI.
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Flask
+- HTML
+- Git & GitHub
+- AWS Elastic Beanstalk
 
-Features Used
- Temperature
- Relative Humidity (RH)
- Wind Speed (WS)
- Rain
- FFMC
- DMC
- ISI
- Classes
- Region
+## Machine Learning
 
-Before prediction, the input features are scaled using StandardScaler.
+The project uses **Ridge Regression** to predict FWI.
+
+### Features Used
+
+- Temperature
+- Relative Humidity (RH)
+- Wind Speed (WS)
+- Rain
+- FFMC
+- DMC
+- ISI
+- Classes
+- Region
+
+Before prediction, the input features are scaled using `StandardScaler`.
 
 The trained model and scaler are saved using Pickle:
+
+```text
 models/
 ├── ridge.pkl
 └── scaler.pkl
@@ -108,16 +113,17 @@ Learning Outcomes
 
 Through this project, I learned and implemented:
 
- Data preprocessing
- Exploratory Data Analysis
- Feature scaling
- Ridge Regression
- Model serialization
- Flask model deployment
- Git & GitHub
- AWS Elastic Beanstalk deployment
+Data preprocessing
 
- 
+- Exploratory Data Analysis
+- Feature scaling
+- Ridge Regression
+- Model serialization
+- Flask model deployment
+- Git & GitHub
+- AWS Elastic Beanstalk deployment
+
+
 Author
 
 Shlok Singh
