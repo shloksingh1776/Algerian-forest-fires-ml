@@ -39,9 +39,9 @@ The trained model and scaler are saved using Pickle:
 models/
 ├── ridge.pkl
 └── scaler.pkl
-
-Project Structure
-
+```
+## Project Structure
+```text
 Algerian Forest Fires Project/
 │
 ├── models/
@@ -65,9 +65,9 @@ Algerian Forest Fires Project/
 ├── .gitignore
 ├── .ebignore
 └── README.md
-
-How It Works
-
+```
+## How It Works
+```text
 Dataset
    ↓
 Data Cleaning
@@ -87,34 +87,42 @@ Save Model
 Flask Web Application
    ↓
 FWI Prediction
+```
 
-Run Locally
+### Run Locally
 
 Clone the repository and install the dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 Run the Flask application:
+```bash
 python application.py
+```
 
 Then open the home page:
+```text
 http://127.0.0.1:5000/
+```
 
 The prediction page is available at:
+```text
 http://127.0.0.1:5000/predictdata
+```
 
 Enter the required weather and fire-related values to get the predicted FWI.
 
 
-Deployment
+### Deployment
 
 The Flask application is prepared for deployment using AWS Elastic Beanstalk.
 
-Learning Outcomes
+## Learning Outcomes
 
 Through this project, I learned and implemented:
 
-Data preprocessing
-
+- Data preprocessing
 - Exploratory Data Analysis
 - Feature scaling
 - Ridge Regression
@@ -124,6 +132,6 @@ Data preprocessing
 - AWS Elastic Beanstalk deployment
 
 
-Author
+## Author
 
-Shlok Singh
+**Shlok Singh**
